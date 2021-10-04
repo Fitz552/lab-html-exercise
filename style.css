@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Poppins';
+  margin: 20px;
 }
 
 header > div {
@@ -45,29 +46,40 @@ header > div {
     width: 80%;
     padding: 0;
     margin: 0;
+    display: flex;
+    align-items: center;
   }
   
 
   .form > label {
-    color: rgba(0,0,0,.05);
-    
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    padding: 0 10px;
+    align-items: center;    
+    display: flex;
+    align-items: center;
   }
 
-   .form > input {
-    color: rgba(0,0,0,.05);
+   .form input {
+    background-color:rgba(0,0,0,.05);
     width: 90%;
-    padding-right: 30px;
+    padding-left: 40px;
+    height: 40px;
+    border: 0;
   }
   
   .form button {
     background-color: #fb3e44;
     color: white;
     width: 7%;
+    border: 0;
+    height: 40px;
   }
 
     .glass {
-        position: absolute;
         width: 20px;
+        align-self: center;
     }
   
   .logo {
@@ -126,4 +138,54 @@ header > div {
 
   .buttons {
       height: 20%;
+  }
+
+  .hexagon {
+      height: 30%;
+      margin: 0 0 20px 0;
+  }
+
+  h2 {
+      font-size: 2em;
+      background-color:rgba(255,204,53,.4);
+      padding: 0 20px;
+      transform: skew(9deg,0deg);
+      font-style: italic;
+  }
+
+  .open-source p {
+      font-size: 0.9em;
+      text-align: center;
+  }
+
+  .advantages img {
+      width: 30px;  
+  }
+
+  h3 {
+    color: #ED1C24
+  }
+
+  .advantages {
+      display: flex;
+      flex-direction: column;
+  }
+  .advantages-details {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin: 30px 100px;
+  }
+  
+  .advantages-details p {
+      font-size: 0.8em;
+  }
+
+  .advantages a {
+      text-decoration: none;
+      background-color: black;
+      color: white;
+      box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+      padding: 10px 100px;
+      align-self: center;
   }
