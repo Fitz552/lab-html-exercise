@@ -85,4 +85,45 @@ header > div {
     border: solid 1px;
   }
 
+  .default-section {
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
 
+  .intro {
+      background-color: rgba(232,217,217,.3);
+  }
+
+  .intro a {
+    text-decoration: none;
+  }
+
+  .plans-button {
+      color: white;
+      padding: 5px 40px;
+      margin: 40px;
+      background-color: #FB3B49;
+      box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  }
+
+  .free-join {
+      color: black;
+      margin: 40px 30px
+  }
+
+  h1 {
+      font-size: 4em;
+      height: 20%;
+  }
+
+  .intro article {
+      text-align: center;
+      height: 20%;
+  }
+
+  .buttons {
+      height: 20%;
+  }
